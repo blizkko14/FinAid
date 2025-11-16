@@ -1,7 +1,6 @@
 .log__system {
   background: rgba(244, 248, 250, 1);
-
-  
+  padding-top: 13px;
 }
 .wrapper__log__system {
   position: relative;
@@ -15,11 +14,8 @@
   z-index: 1;
   top: 17px;
   left: 446px;
-  height: 745px;
+  height: 685px;
   overflow: hidden;
-  
-
-
 }
 .log__system__text,
 .log__system__form {
@@ -45,7 +41,7 @@
   letter-spacing: 0%;
   text-align: left;
   color: rgba(97, 99, 109, 1);
-  padding-right: 65px;
+  margin-right: 203px;
 }
 .gray {
   color: rgba(63, 65, 74, 1);
@@ -73,7 +69,7 @@
 }
 .form1 {
   display: flex;
-  gap: 138px;
+ 
 }
 .log__system__form {
   border-radius: 30px;
