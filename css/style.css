@@ -56,6 +56,7 @@ header {
 .log__system {
   background: rgb(244, 248, 250);
   padding-top: 13px;
+  overflow: hidden;
 }
 
 .wrapper__log__system {
@@ -73,8 +74,6 @@ header {
   z-index: 1;
   top: 17px;
   left: 446px;
-  height: 685px;
-  overflow: hidden;
 }
 
 .log__system__text,
@@ -145,10 +144,10 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 40;
   padding: 40px 48px 40px 48px;
   width: 100%;
   max-width: 487px;
+  gap: 40px;
 }
 
 .log__system__title2 {
@@ -159,7 +158,10 @@ header {
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
-  margin-bottom: 40px;
+}
+
+.sec {
+  width: 100%;
 }
 
 .log {
@@ -203,7 +205,11 @@ header {
   text-align: left;
   max-width: 389px;
   width: 100%;
-  margin-bottom: 8px;
+}
+
+.eye {
+  width: 100%;
+  height: 100%;
 }
 
 .pas__form {
@@ -224,6 +230,7 @@ header {
 }
 
 .recover {
+  display: inline-block;
   color: rgb(159, 161, 173);
   font-family: Inter;
   font-size: 16px;
@@ -232,8 +239,8 @@ header {
   letter-spacing: 0%;
   text-align: left;
   align-self: flex-start;
-  margin-bottom: 40px;
   margin-left: 8px;
+  margin-top: 8px;
 }
 
 .enter {
@@ -256,6 +263,7 @@ header {
   background: rgb(255, 255, 255);
   margin-bottom: 16px;
   justify-content: center;
+  width: 128px;
 }
 
 .par2 {
@@ -280,6 +288,13 @@ header {
 
 .no__akk {
   display: flex;
+}
+
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about__project__wrapper {

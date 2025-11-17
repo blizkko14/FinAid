@@ -1,6 +1,7 @@
 .log__system {
   background: rgba(244, 248, 250, 1);
   padding-top: 13px;
+  overflow: hidden;
 }
 
 .wrapper__log__system {
@@ -16,8 +17,6 @@
   z-index: 1;
   top: 17px;
   left: 446px;
-  height: 685px;
-  overflow: hidden;
 }
 .log__system__text,
 .log__system__form {
@@ -71,7 +70,6 @@
 }
 .form1 {
   display: flex;
- 
 }
 .log__system__form {
   border-radius: 30px;
@@ -81,11 +79,10 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 40;
   padding: 40px 48px 40px 48px;
   width: 100%;
- 
   max-width: 487px;
+  gap: 40px;
 }
 .log__system__title2 {
   color: rgba(38, 41, 49, 1);
@@ -96,7 +93,9 @@
   line-height: 22px;
   letter-spacing: 0%;
   text-align: left;
-  margin-bottom: 40px;
+}
+.sec {
+  width: 100%;
 }
 .log {
   display: flex;
@@ -140,7 +139,10 @@
   text-align: left;
   max-width: 389px;
   width: 100%;
-  margin-bottom: 8px;
+}
+.eye {
+  width: 100%;
+  height: 100%;
 }
 .pas__form {
   display: flex;
@@ -158,6 +160,7 @@
   background-color: rgba(255, 255, 255, 1);
 }
 .recover {
+  display: inline-block;
   color: rgba(159, 161, 173, 1);
   font-family: Inter;
   font-size: 16px;
@@ -166,8 +169,8 @@
   letter-spacing: 0%;
   text-align: left;
   align-self: flex-start;
-  margin-bottom: 40px;
   margin-left: 8px;
+  margin-top: 8px;
 }
 .enter {
   color: rgba(38, 41, 49, 1);
@@ -189,6 +192,7 @@
   background: rgba(255, 255, 255, 1);
   margin-bottom: 16px;
   justify-content: center;
+  width: 128px;
 }
 .par2 {
   font-family: Inter;
@@ -210,4 +214,10 @@
 }
 .no__akk {
   display: flex;
+}
+.sec3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
