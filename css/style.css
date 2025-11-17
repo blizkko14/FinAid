@@ -423,7 +423,6 @@ header {
   flex-direction: column;
   gap: 98px;
   position: relative;
-  margin-bottom: 63px;
   margin-right: 47px;
 }
 
@@ -452,13 +451,14 @@ header {
 .group4 {
   display: flex;
   flex-direction: column;
-  gap: 55px;
+  gap: 87px;
   position: relative;
   margin-bottom: 79px;
 }
 
 .pad1 {
   padding: 0 84px 0 0;
+  height: 100%;
 }
 
 .pad3 {
@@ -467,7 +467,7 @@ header {
 }
 
 .pad4 {
-  padding-left: 58px;
+  padding-left: 47px;
 }
 
 .fr__im {
@@ -489,8 +489,11 @@ header {
   border-radius: 72px;
   background: rgb(1, 118, 255);
   max-width: 202px;
-  align-self: center;
-  margin-left: 499px;
+}
+
+.btt1 {
+  display: flex;
+  justify-content: center;
 }
 
 .container {
