@@ -1,0 +1,126 @@
+.how__it__works {
+  background: rgba(244, 248, 250, 1);
+}
+.how__it__works__wrapper {
+  padding-top: 136px;
+  padding-bottom: 60px;
+}
+.how__it__works__title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: black;
+  margin-bottom: 64px;
+}
+.content {
+  display: flex;
+  max-width: 1199.43px;
+  max-height: 576px;
+  margin-bottom: 32px;
+  position: relative;
+}
+.content__title {
+  color: rgba(38, 41, 49, 1);
+  font-family: RF Dewi Extended;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.par4 {
+  color: rgba(97, 99, 109, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.group1 {
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+  position: relative;
+  margin-right: 27px;
+}
+.way1 {
+  position: absolute;
+  z-index: 2;
+  top: 240px;
+  left: 230px;
+}
+.group2 {
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+  position: relative;
+  margin-bottom: 63px;
+  margin-right: 47px;
+}
+.way2 {
+  position: absolute;
+  z-index: 2;
+  top: 237px;
+  right: 467px;
+}
+.group3 {
+  display: flex;
+  flex-direction: column;
+  gap: 168px;
+  position: relative;
+  margin-right: 50px;
+}
+.way3 {
+  position: absolute;
+  z-index: 2;
+  top: 245px;
+  right: 226px;
+}
+.group4 {
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  position: relative;
+  margin-bottom: 79px;
+}
+
+.pad1 {
+  padding: 0 84px 0 0;
+}
+.pad2 {
+}
+.pad3 {
+  max-width: 206px;
+  margin-right: 52px;
+}
+.pad4 {
+  padding-left: 58px;
+}
+
+.fr__im {
+  padding-top: 35px;
+  padding-right: 30px;
+}
+.butt__partner {
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  display: flex;
+  padding: 16px 32px 16px 32px;
+  border-radius: 72px;
+  background: rgba(1, 118, 255, 1);
+  max-width: 202px;
+  align-self: center;
+  margin-left: 499px;
+}

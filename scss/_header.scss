@@ -5,6 +5,8 @@ header{
 .header__wrapper {
   display: flex;
  padding-top: 24px;
+ align-items: center;        
+  justify-content: space-between;
 }
 .menu__list {
   display: flex;
