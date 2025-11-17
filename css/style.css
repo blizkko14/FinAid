@@ -9,10 +9,10 @@ header {
   justify-content: space-between;
 }
 
-.menu__list {
+.menu__header {
   display: flex;
-  margin: 0 91px 0 91px;
-  padding: 9px 0;
+  justify-content: space-between;
+  flex: 0 1 784px;
 }
 
 .val__menu__list {
@@ -28,7 +28,8 @@ header {
 .menu__list {
   display: flex;
   justify-content: space-between;
-  gap: 56px;
+  width: 100%;
+  gap: 10px;
 }
 
 .val__menu__list__exit {
@@ -59,6 +60,7 @@ header {
 
 .wrapper__log__system {
   position: relative;
+  padding: 115px 0 144px 0;
 }
 
 .hexagon {
@@ -128,7 +130,6 @@ header {
 .log__system__text {
   display: flex;
   flex-direction: column;
-  margin: 135px 0 180px 0;
   gap: 56px;
 }
 
@@ -147,8 +148,6 @@ header {
   gap: 40;
   padding: 40px 48px 40px 48px;
   width: 100%;
-  margin-top: 115px;
-  margin-bottom: 144px;
   max-width: 487px;
 }
 
@@ -287,6 +286,13 @@ header {
   display: flex;
   gap: 253px;
   padding-top: 95px;
+  margin-bottom: 82px;
+}
+
+.about__project {
+  background-image: url(/img/Bar\ chart.png);
+  background-repeat: repeat-x;
+  background-position: 0 100%;
 }
 
 .about__project__title {

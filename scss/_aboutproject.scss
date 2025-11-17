@@ -2,6 +2,14 @@
   display: flex;
   gap: 253px;
   padding-top: 95px;
+  margin-bottom: 82px;
+}
+.about__project{
+  background-image: url(/img/Bar\ chart.png);
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+
+
 }
 .about__project__title {
   color: rgba(38, 41, 49, 1);
