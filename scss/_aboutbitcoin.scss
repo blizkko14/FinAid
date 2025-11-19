@@ -1,0 +1,52 @@
+.about__bitcoin {
+  background: rgba(244, 248, 250, 1);
+  padding: 144px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.about__bitcoin__wrapper {
+  position: relative;
+}
+.about__bitcoin__title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.video_bitcoin {
+}
+
+.par5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(97, 99, 109, 1);
+  margin-bottom: 56px;
+  padding: 0 264px;
+}
+.run__video {
+  position: absolute;
+  top: 422px;
+  left: 559px;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 1);
+  background: rgba(249, 251, 252, 1);
+  width: 72px;
+  height: 72px;
+  border-radius: 50px;
+}
+.img__run {
+  position: relative;
+  top: 18px;
+  left: 19px;
+  transform: translate(-50%, -50%);
+  width: 35px;
+  height: 35px;
+}
