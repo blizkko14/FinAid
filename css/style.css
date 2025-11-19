@@ -552,6 +552,96 @@ header {
   height: 35px;
 }
 
+.registration {
+  background: rgb(1, 118, 255);
+  overflow: hidden;
+}
+
+.registration__wrapper {
+  padding: 48px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.img4 {
+  position: absolute;
+  z-index: 1;
+  left: 618px;
+  top: -58px;
+}
+
+.hexagon_2 {
+  width: 877px;
+  height: 748px;
+}
+
+.registration__title {
+  font-family: RF Dewi Extended;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+.yellow {
+  color: rgb(251, 220, 124);
+}
+
+.par10 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.reg__butt {
+  display: flex;
+  gap: 24px;
+}
+
+.registration__butt {
+  width: 230px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  border-radius: 72px;
+  background: rgb(255, 255, 255);
+  padding: 16px 32px 16px 32px;
+  color: rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.enter__akk {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  align-self: center;
+}
+
+.registration__text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-right: 380px;
+}
+
 .container {
   width: 100%;
   max-width: 1224px;
