@@ -642,8 +642,10 @@ header {
 
 .partner__support__wrapper {
   padding-top: 166px;
+  padding-bottom: 103px;
   background-image: url(../img/Asset\ 1\ 4.png);
   background-repeat: no-repeat;
+  background-position: center 192px;
 }
 
 .partner__support__title {
@@ -678,7 +680,51 @@ header {
 
 .partner__support__text {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+
+.column1 {
+  margin-top: 160px;
+  margin-right: 83px;
+}
+
+.img4 {
+  margin-top: 56px;
+}
+
+.column2 {
+  margin-top: 160px;
+  margin-left: 65px;
+}
+
+.val1 {
+  max-width: 237px;
+  margin-bottom: 75px;
+}
+
+.val2 {
+  max-width: 237px;
+  margin-bottom: 73px;
+  padding-right: 30px;
+}
+
+.val3 {
+  max-width: 237px;
+}
+
+.val4 {
+  max-width: 267px;
+  margin-bottom: 75px;
+}
+
+.val5 {
+  max-width: 269px;
+  margin-bottom: 73px;
+  padding-left: 18px;
+}
+
+.val6 {
+  max-width: 249px;
 }
 
 .container {
