@@ -103,7 +103,7 @@ header {
   letter-spacing: 0%;
   text-align: left;
   color: rgb(97, 99, 109);
-  margin-right: 203px;
+  max-width: 511px;
 }
 
 .gray {
@@ -319,7 +319,8 @@ header {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
-  padding: 15px 0 32px 0;
+  padding: 15px 0 0 0;
+  margin-bottom: 32px;
 }
 
 .about__project__text {
@@ -379,6 +380,7 @@ header {
   max-height: 576px;
   margin-bottom: 32px;
   position: relative;
+  padding-top: 44px;
 }
 
 .content__title {
@@ -526,8 +528,8 @@ header {
   letter-spacing: 0%;
   text-align: center;
   color: rgb(97, 99, 109);
-  margin-bottom: 56px;
-  padding: 0 264px;
+  max-width: 671px;
+  margin: 0 auto 56px;
 }
 
 .run__video {
@@ -555,24 +557,16 @@ header {
 .registration {
   background: rgb(1, 118, 255);
   overflow: hidden;
+  background-image: url(/img/F\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: 100% -64px;
+  background-size: 877px 748px;
 }
 
 .registration__wrapper {
   padding: 48px 0;
   position: relative;
   z-index: 2;
-}
-
-.img4 {
-  position: absolute;
-  z-index: 1;
-  left: 618px;
-  top: -58px;
-}
-
-.hexagon_2 {
-  width: 877px;
-  height: 748px;
 }
 
 .registration__title {
@@ -583,6 +577,7 @@ header {
   letter-spacing: 0%;
   text-align: left;
   color: rgb(255, 255, 255);
+  max-width: 821px;
 }
 
 .yellow {
@@ -639,7 +634,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding-right: 380px;
 }
 
 .container {

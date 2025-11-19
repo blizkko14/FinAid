@@ -1,6 +1,11 @@
 .registration {
   background: rgba(1, 118, 255, 1);
   overflow: hidden;
+  background-image: url(/img/F\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: 100% -64px;
+
+  background-size: 877px 748px;
 }
 .registration__wrapper {
   padding: 48px 0;
@@ -8,16 +13,7 @@
   position: relative;
   z-index: 2;
 }
-.img4 {
-  position: absolute;
-  z-index: 1;
- left: 618px;
-    top: -58px;
-}
-.hexagon_2 {
-  width: 877px;
-  height: 748px;
-}
+
 .registration__title {
   font-family: RF Dewi Extended;
   font-size: 40px;
@@ -26,6 +22,7 @@
   letter-spacing: 0%;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+  max-width: 821px;
 }
 .yellow {
   color: rgba(251, 220, 124, 1);
@@ -78,5 +75,5 @@
      display: flex;
   flex-direction: column;
   gap: 40px;
-    padding-right: 380px;
+  
 }
