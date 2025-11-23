@@ -62,10 +62,20 @@
   background: rgba(1, 118, 255, 1);
   max-width: 202px;
 }
+.become__partner:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  padding: 16px 32px 16px 32px;
+  border-radius: 72px;
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+  background: rgba(20, 113, 222, 1);
+}
 .log__system__text {
   display: flex;
   flex-direction: column;
-
   gap: 56px;
 }
 .form1 {
@@ -119,6 +129,17 @@
   width: 100%;
   margin-bottom: 24px;
 }
+.log:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 8px 16px 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(97, 99, 109, 1);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 1);
+}
 .password {
   display: flex;
   flex-direction: column;
@@ -139,6 +160,17 @@
   text-align: left;
   max-width: 389px;
   width: 100%;
+}
+.password:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 8px 16px 8px;
+  box-sizing: border-box;
+  border: 1px solid rgba(97, 99, 109, 1);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 1);
 }
 .eye {
   width: 100%;
@@ -172,6 +204,9 @@
   margin-left: 8px;
   margin-top: 8px;
 }
+.recover:hover {
+  color: rgba(38, 41, 49, 1);
+}
 .enter {
   color: rgba(38, 41, 49, 1);
   font-family: Inter;
@@ -194,6 +229,18 @@
   justify-content: center;
   width: 128px;
 }
+.enter:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  padding: 16px 40px 16px 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(1, 118, 255, 1);
+  border-radius: 72px;
+  background: rgba(1, 118, 255, 1);
+}
 .par2 {
   font-family: Inter;
   font-size: 16px;
@@ -211,6 +258,10 @@
   letter-spacing: 0%;
   text-align: left;
   color: rgba(1, 118, 255, 1);
+}
+
+.reg:hover {
+  color: rgba(23, 82, 151, 1);
 }
 .no__akk {
   display: flex;

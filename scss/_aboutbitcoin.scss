@@ -6,7 +6,7 @@
   flex-direction: column;
   text-align: center;
 }
-.video__bitcoin{
+.video__bitcoin {
   position: relative;
 }
 .about__bitcoin__title {
@@ -40,6 +40,10 @@
   width: 72px;
   height: 72px;
   border-radius: 50px;
+}
+.run__video:hover {
+  background: rgba(1, 118, 255, 1);
+  
 }
 .img__run {
   position: relative;

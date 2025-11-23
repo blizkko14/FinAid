@@ -25,6 +25,16 @@ header {
   text-align: left;
 }
 
+.val__menu__list:hover {
+  color: rgb(38, 41, 49);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
 .menu__list {
   display: flex;
   justify-content: space-between;
@@ -40,6 +50,10 @@ header {
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.val__menu__list__exit:hover {
+  color: rgb(38, 41, 49);
 }
 
 .exit {
@@ -126,6 +140,18 @@ header {
   max-width: 202px;
 }
 
+.become__partner:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  padding: 16px 32px 16px 32px;
+  border-radius: 72px;
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+  background: rgb(20, 113, 222);
+}
+
 .log__system__text {
   display: flex;
   flex-direction: column;
@@ -186,6 +212,18 @@ header {
   margin-bottom: 24px;
 }
 
+.log:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 8px 16px 8px;
+  box-sizing: border-box;
+  border: 1px solid rgb(97, 99, 109);
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+}
+
 .password {
   display: flex;
   flex-direction: column;
@@ -205,6 +243,18 @@ header {
   text-align: left;
   max-width: 389px;
   width: 100%;
+}
+
+.password:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 8px 16px 8px;
+  box-sizing: border-box;
+  border: 1px solid rgb(97, 99, 109);
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
 }
 
 .eye {
@@ -243,6 +293,10 @@ header {
   margin-top: 8px;
 }
 
+.recover:hover {
+  color: rgb(38, 41, 49);
+}
+
 .enter {
   color: rgb(38, 41, 49);
   font-family: Inter;
@@ -266,6 +320,19 @@ header {
   width: 128px;
 }
 
+.enter:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  padding: 16px 40px 16px 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(1, 118, 255);
+  border-radius: 72px;
+  background: rgb(1, 118, 255);
+}
+
 .par2 {
   font-family: Inter;
   font-size: 16px;
@@ -284,6 +351,10 @@ header {
   letter-spacing: 0%;
   text-align: left;
   color: rgb(1, 118, 255);
+}
+
+.reg:hover {
+  color: rgb(23, 82, 151);
 }
 
 .no__akk {
@@ -544,6 +615,10 @@ header {
   border-radius: 50px;
 }
 
+.run__video:hover {
+  background: rgb(1, 118, 255);
+}
+
 .img__run {
   position: relative;
   top: 18px;
@@ -618,6 +693,18 @@ header {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+.registration__butt:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 18;
+  padding: 16px 32px 16px 32px;
+  border-radius: 52px;
+  box-shadow: 0px 8px 16px 0px rgba(50, 73, 85, 0.3);
+  background: rgb(255, 255, 255);
 }
 
 .enter__akk {
@@ -999,6 +1086,10 @@ header {
   letter-spacing: 0%;
   text-align: left;
   width: 100%;
+}
+
+.footer__text__li:hover {
+  color: rgb(0, 0, 0);
 }
 
 .par17 {
