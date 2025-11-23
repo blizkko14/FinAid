@@ -3,6 +3,7 @@
 }
 .answer__to__questions__wrapper {
   padding-top: 144px;
+  padding-bottom: 120px;
 }
 .answer__to__questions__title {
   font-family: RF Dewi Extended;
@@ -55,13 +56,16 @@
 }
 .questions {
   &[open] {
-    &.questions__summaary {
+    & .questions__summaary {
+      
       color: rgba(38, 41, 49, 1);
     }
-    &.arrow {
+    & .arrow {
+      
       transform: rotate(180deg);
     }
   }
+
   background-color: rgba(255, 255, 255, 1);
   padding: 24px;
   border-radius: 16px;
@@ -162,7 +166,7 @@
   border: 1px solid rgba(196, 199, 207, 1);
   border-radius: 30px;
   background: rgba(255, 255, 255, 1);
-    width: 100%;
+  width: 100%;
   color: rgba(169, 171, 182, 1);
   font-family: Inter;
   font-size: 16px;
