@@ -6,7 +6,7 @@
   flex-direction: column;
   text-align: center;
 }
-.about__bitcoin__wrapper {
+.video__bitcoin{
   position: relative;
 }
 .about__bitcoin__title {
@@ -32,8 +32,9 @@
 }
 .run__video {
   position: absolute;
-  top: 422px;
-  left: 559px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 1);
   background: rgba(249, 251, 252, 1);
   width: 72px;
