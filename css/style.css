@@ -23,16 +23,11 @@ header {
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 0.3s ease;
 }
 
 .val__menu__list:hover {
   color: rgb(38, 41, 49);
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 
 .menu__list {
@@ -50,6 +45,7 @@ header {
   line-height: 19px;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 0.3s ease;
 }
 
 .val__menu__list__exit:hover {
@@ -67,6 +63,26 @@ header {
   padding: 9px 0;
 }
 
+.menu__burger {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .menu__list {
+    display: none;
+  }
+  .val__exit {
+    display: none;
+  }
+  .menu__burger {
+    display: flex;
+  }
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 167px;
+  }
+}
 .log__system {
   background: rgb(244, 248, 250);
   padding-top: 13px;
@@ -134,20 +150,14 @@ header {
   letter-spacing: 0%;
   text-align: left;
   display: flex;
-  padding: 16px 32px 16px 32px;
+  padding: 20px 32px 20px 32px;
   border-radius: 72px;
   background: rgb(1, 118, 255);
   max-width: 202px;
+  transition: all 0.3s ease;
 }
 
 .become__partner:hover {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8;
-  padding: 16px 32px 16px 32px;
-  border-radius: 72px;
   box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
   background: rgb(20, 113, 222);
 }
@@ -156,10 +166,13 @@ header {
   display: flex;
   flex-direction: column;
   gap: 56px;
+  max-width: 576px;
 }
 
 .form1 {
   display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
 
 .log__system__form {
@@ -195,7 +208,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 16px 12px 16px 12px;
+  padding: 16px 20px 16px 20px;
   box-sizing: border-box;
   border: 1px solid rgb(196, 199, 207);
   border-radius: 30px;
@@ -210,16 +223,12 @@ header {
   max-width: 389px;
   width: 100%;
   margin-bottom: 24px;
+  transition: all 0.3s ease;
 }
 
 .log:hover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 16px 8px 16px 8px;
   box-sizing: border-box;
-  border: 1px solid rgb(97, 99, 109);
+  border: 1px solid, rgb(97, 99, 109);
   border-radius: 30px;
   background: rgb(255, 255, 255);
 }
@@ -229,7 +238,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 16px 12px 16px 12px;
+  padding: 16px 20px 16px 20px;
   box-sizing: border-box;
   border: 1px solid rgb(196, 199, 207);
   border-radius: 30px;
@@ -243,16 +252,12 @@ header {
   text-align: left;
   max-width: 389px;
   width: 100%;
+  transition: all 0.3s ease;
 }
 
 .password:hover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 16px 8px 16px 8px;
   box-sizing: border-box;
-  border: 1px solid rgb(97, 99, 109);
+  border: 1px solid, rgb(97, 99, 109);
   border-radius: 30px;
   background: rgb(255, 255, 255);
 }
@@ -291,6 +296,7 @@ header {
   align-self: flex-start;
   margin-left: 8px;
   margin-top: 8px;
+  transition: all 0.3s ease;
 }
 
 .recover:hover {
@@ -305,32 +311,17 @@ header {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8;
   padding: 16px 40px 16px 40px;
-  box-sizing: border-box;
   border: 1px solid rgb(1, 118, 255);
   border-radius: 72px;
   background: rgb(255, 255, 255);
   margin-bottom: 16px;
-  justify-content: center;
-  width: 128px;
+  transition: all 0.3s ease;
 }
 
 .enter:hover {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8;
-  padding: 16px 40px 16px 40px;
-  box-sizing: border-box;
-  border: 1px solid rgb(1, 118, 255);
-  border-radius: 72px;
   background: rgb(1, 118, 255);
+  color: rgb(255, 255, 255);
 }
 
 .par2 {
@@ -351,6 +342,7 @@ header {
   letter-spacing: 0%;
   text-align: left;
   color: rgb(1, 118, 255);
+  transition: all 0.3s ease;
 }
 
 .reg:hover {
@@ -368,9 +360,27 @@ header {
   align-items: center;
 }
 
+@media (max-width: 992px) {
+  .form1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .title__log__system {
+    font-family: RF Dewi Extended;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .img1 {
+    display: none;
+  }
+}
 .about__project__wrapper {
   display: flex;
-  gap: 253px;
+  gap: 15px;
   padding-top: 95px;
   padding-bottom: 167px;
   justify-content: space-between;
@@ -534,7 +544,6 @@ header {
 }
 
 .pad3 {
-  max-width: 206px;
   margin-right: 52px;
 }
 
@@ -561,6 +570,12 @@ header {
   border-radius: 72px;
   background: rgb(1, 118, 255);
   max-width: 202px;
+  transition: all 0.3s ease;
+}
+
+.butt__partner:hover {
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+  background: rgb(20, 113, 222);
 }
 
 .btt1 {
@@ -613,21 +628,23 @@ header {
   width: 72px;
   height: 72px;
   border-radius: 50px;
+  transition: all 0.3s ease;
+}
+.run__video svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.run__video path {
+  transition: all 0.3s ease;
 }
 
 .run__video:hover {
   background: rgb(1, 118, 255);
 }
-
-.img__run {
-  position: relative;
-  top: 18px;
-  left: 19px;
-  bottom: 19px;
-  right: 18px;
-  transform: translate(-50%, -50%);
-  width: 35px;
-  height: 35px;
+.run__video:hover path {
+  fill: white;
 }
 
 .registration {
@@ -693,16 +710,10 @@ header {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+  transition: all 0.3s ease;
 }
 
 .registration__butt:hover {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 18;
-  padding: 16px 32px 16px 32px;
-  border-radius: 52px;
   box-shadow: 0px 8px 16px 0px rgba(50, 73, 85, 0.3);
   background: rgb(255, 255, 255);
 }
@@ -772,7 +783,7 @@ header {
 }
 
 .column1 {
-  margin-top: 160px;
+  padding-top: 160px;
   margin-right: 83px;
 }
 
@@ -781,7 +792,7 @@ header {
 }
 
 .column2 {
-  margin-top: 160px;
+  padding-top: 160px;
   margin-left: 65px;
 }
 
@@ -844,6 +855,7 @@ header {
 
 .answers__and__form {
   display: flex;
+  align-items: flex-start;
 }
 
 .answers {
@@ -853,21 +865,8 @@ header {
   margin-right: 32px;
 }
 
-.questions {
-  border-radius: 16px;
-  background: rgb(255, 255, 255);
-  width: 682px;
-  display: flex;
-  justify-content: flex-start;
-  align-self: left;
-  padding: 24px;
-  flex-direction: column;
-}
-
 .line {
   border: 1px solid rgb(220, 221, 229);
-  width: 634px;
-  margin-top: 16px;
   margin-bottom: 16px;
 }
 
@@ -883,19 +882,6 @@ header {
   line-height: 160%;
   letter-spacing: 0%;
   text-align: left;
-}
-
-.questions {
-  background-color: rgb(255, 255, 255);
-  padding: 24px;
-  border-radius: 16px;
-  max-width: 682px;
-}
-.questions[open] .questions__summaary {
-  color: rgb(38, 41, 49);
-}
-.questions[open] .arrow {
-  transform: rotate(180deg);
 }
 
 .answers__li {
@@ -922,6 +908,15 @@ header {
   text-align: left;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.question__text__wrapper {
+  background: white;
+  border-radius: 0 0 16px 16px;
+  padding: 0 24px 24px;
 }
 
 .question__form {
@@ -935,7 +930,6 @@ header {
   padding: 40px 48px 40px 48px;
   width: 100%;
   max-width: 485px;
-  max-height: 574px;
 }
 
 .question__title {
@@ -974,7 +968,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 16px 12px 16px 12px;
+  padding: 16px 20px 16px 20px;
   box-sizing: border-box;
   border: 1px solid rgb(196, 199, 207);
   border-radius: 30px;
@@ -986,6 +980,12 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+  transition: all 0.3s ease;
+}
+
+.name:hover {
+  box-sizing: border-box;
+  border: 1px solid, rgb(97, 99, 109);
 }
 
 .message {
@@ -1003,6 +1003,13 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+  transition: all 0.3s ease;
+  resize: none;
+}
+
+.message:hover {
+  box-sizing: border-box;
+  border: 1px solid, rgb(97, 99, 109);
 }
 
 .send {
@@ -1018,6 +1025,18 @@ header {
   border: 1px solid rgb(1, 118, 255);
   border-radius: 72px;
   background: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.send:hover {
+  background: rgb(1, 118, 255);
+  color: white;
 }
 
 .fixed__number {
@@ -1026,7 +1045,13 @@ header {
   box-sizing: border-box;
   border: 1px solid rgb(196, 199, 207);
   border-radius: 30px;
-  padding: 0 12px;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+}
+
+.fixed__number:hover {
+  box-sizing: border-box;
+  border: 1px solid, rgb(97, 99, 109);
 }
 
 .number {
@@ -1039,7 +1064,7 @@ header {
   letter-spacing: 0px;
   text-align: left;
   color: rgb(169, 171, 182);
-  padding: 16px 12px 16px 1px;
+  padding: 16px 20px 16px 0;
   border: none;
   border-radius: 30px;
 }
@@ -1054,6 +1079,14 @@ header {
   color: rgb(38, 41, 49);
   display: flex;
   align-items: center;
+}
+
+.questions[open] .questions__summaary {
+  color: rgb(38, 41, 49);
+  border-radius: 16px 16px 0 0;
+}
+.questions[open] .arrow {
+  transform: rotate(180deg);
 }
 
 .footer__wrapper {
@@ -1086,6 +1119,7 @@ header {
   letter-spacing: 0%;
   text-align: left;
   width: 100%;
+  transition: all 0.3s ease;
 }
 
 .footer__text__li:hover {
@@ -1101,6 +1135,11 @@ header {
   letter-spacing: 0%;
   text-align: left;
   width: 100%;
+  transition: color 0.3s ease;
+}
+
+.par17:hover {
+  color: rgb(38, 41, 49);
 }
 
 .footer__text1 {

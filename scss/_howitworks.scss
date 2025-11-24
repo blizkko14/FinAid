@@ -98,7 +98,7 @@
 .pad2 {
 }
 .pad3 {
-  max-width: 206px;
+  
   margin-right: 52px;
 }
 .pad4 {
@@ -123,7 +123,13 @@
   border-radius: 72px;
   background: rgba(1, 118, 255, 1);
   max-width: 202px;
+  transition: all 0.3s ease;
  
+}
+.butt__partner:hover{
+box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+  background: rgba(20, 113, 222, 1);
+
 }
 
 .btt1{

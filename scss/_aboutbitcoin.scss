@@ -40,18 +40,21 @@
   width: 72px;
   height: 72px;
   border-radius: 50px;
+  transition: all 0.3s ease;
+  & svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  & path{
+    transition: all 0.3s ease ;
+  }
 }
 .run__video:hover {
   background: rgba(1, 118, 255, 1);
-  
-}
-.img__run {
-  position: relative;
-  top: 18px;
-  left: 19px;
-  bottom: 19px;
-  right: 18px;
-  transform: translate(-50%, -50%);
-  width: 35px;
-  height: 35px;
+  & path {
+    fill: white;
+  }
 }

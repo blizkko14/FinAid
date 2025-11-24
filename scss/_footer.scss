@@ -27,6 +27,7 @@
   letter-spacing: 0%;
   text-align: left;
   width: 100%;
+  transition: all 0.3s ease;
 }
 .footer__text__li:hover{
     color: rgba(0, 0, 0, 1);
@@ -41,6 +42,11 @@
   letter-spacing: 0%;
   text-align: left;
   width: 100%;
+  transition: color 0.3s ease;
+}
+.par17:hover{
+  
+  color:  rgba(38, 41, 49, 1);
 }
 .footer__text1 {
   display: flex;

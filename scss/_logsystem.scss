@@ -57,19 +57,13 @@
   letter-spacing: 0%;
   text-align: left;
   display: flex;
-  padding: 16px 32px 16px 32px;
+  padding: 20px 32px 20px 32px;
   border-radius: 72px;
   background: rgba(1, 118, 255, 1);
   max-width: 202px;
+  transition: all 0.3s ease;
 }
 .become__partner:hover {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8;
-  padding: 16px 32px 16px 32px;
-  border-radius: 72px;
   box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
   background: rgba(20, 113, 222, 1);
 }
@@ -77,9 +71,12 @@
   display: flex;
   flex-direction: column;
   gap: 56px;
+  max-width: 576px;
 }
 .form1 {
   display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
 .log__system__form {
   border-radius: 30px;
@@ -112,7 +109,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 16px 12px 16px 12px;
+  padding: 16px 20px 16px 20px;
   box-sizing: border-box;
   border: 1px solid rgba(196, 199, 207, 1);
   border-radius: 30px;
@@ -128,15 +125,11 @@
   max-width: 389px;
   width: 100%;
   margin-bottom: 24px;
+  transition: all 0.3s ease;
 }
 .log:hover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 16px 8px 16px 8px;
   box-sizing: border-box;
-  border: 1px solid rgba(97, 99, 109, 1);
+  border: 1px solid, rgba(97, 99, 109, 1);
   border-radius: 30px;
   background: rgba(255, 255, 255, 1);
 }
@@ -145,7 +138,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 16px 12px 16px 12px;
+  padding: 16px 20px 16px 20px;
   box-sizing: border-box;
   border: 1px solid rgba(196, 199, 207, 1);
   border-radius: 30px;
@@ -160,15 +153,11 @@
   text-align: left;
   max-width: 389px;
   width: 100%;
+  transition: all 0.3s ease;
 }
 .password:hover {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 16px 8px 16px 8px;
   box-sizing: border-box;
-  border: 1px solid rgba(97, 99, 109, 1);
+  border: 1px solid, rgba(97, 99, 109, 1);
   border-radius: 30px;
   background: rgba(255, 255, 255, 1);
 }
@@ -203,8 +192,10 @@
   align-self: flex-start;
   margin-left: 8px;
   margin-top: 8px;
+  transition: all 0.3s ease;
 }
 .recover:hover {
+
   color: rgba(38, 41, 49, 1);
 }
 .enter {
@@ -215,31 +206,16 @@
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8;
   padding: 16px 40px 16px 40px;
-  box-sizing: border-box;
   border: 1px solid rgba(1, 118, 255, 1);
   border-radius: 72px;
   background: rgba(255, 255, 255, 1);
   margin-bottom: 16px;
-  justify-content: center;
-  width: 128px;
+  transition: all 0.3s ease;
 }
 .enter:hover {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 8;
-  padding: 16px 40px 16px 40px;
-  box-sizing: border-box;
-  border: 1px solid rgba(1, 118, 255, 1);
-  border-radius: 72px;
   background: rgba(1, 118, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 .par2 {
   font-family: Inter;
@@ -258,6 +234,7 @@
   letter-spacing: 0%;
   text-align: left;
   color: rgba(1, 118, 255, 1);
+  transition: all 0.3s ease;
 }
 
 .reg:hover {
@@ -271,4 +248,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 992px) {
+  .form1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .title__log__system {
+    font-family: RF Dewi Extended;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .img1 {
+    display: none;
+  }
 }
