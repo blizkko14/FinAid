@@ -69,7 +69,7 @@ header {
 }
 
 @media (max-width: 992px) {
-  .menu__list {
+  .menu__header {
     display: none;
   }
   .val__exit {
@@ -101,7 +101,7 @@ header {
     transition: all 0.3s ease;
   }
   .span__burger::after,
-  ::before {
+  .span__burger::before {
     content: "";
   }
   .span__burger::before {
@@ -214,7 +214,6 @@ header {
   align-items: center;
   padding: 40px 48px 40px 48px;
   width: 100%;
-  max-width: 487px;
   gap: 40px;
 }
 
@@ -249,7 +248,6 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  max-width: 389px;
   width: 100%;
   margin-bottom: 24px;
   transition: all 0.3s ease;
@@ -279,7 +277,6 @@ header {
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  max-width: 389px;
   width: 100%;
   transition: all 0.3s ease;
 }
@@ -299,7 +296,6 @@ header {
 .pas__form {
   display: flex;
   position: relative;
-  max-width: 389px;
   width: 100%;
 }
 
@@ -307,7 +303,8 @@ header {
   display: flex;
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 16px;
   height: 16px;
   background-color: rgb(255, 255, 255);
@@ -390,6 +387,9 @@ header {
 }
 
 @media (max-width: 992px) {
+  .log__system {
+    padding-top: 57px;
+  }
   .form1 {
     display: flex;
     flex-wrap: wrap;
@@ -431,6 +431,7 @@ header {
     flex-direction: row;
     justify-content: center;
     font-size: 14px;
+    max-width: none;
   }
   .log__system__form {
     display: flex;
@@ -438,6 +439,9 @@ header {
     flex: 1 1 296px;
     gap: 12px;
     padding: 18px 12px;
+  }
+  .log__system__title2 {
+    font-size: 16px;
   }
   .log {
     padding: 12px 20px;

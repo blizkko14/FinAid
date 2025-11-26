@@ -60,8 +60,8 @@
   font-weight: 500;
   line-height: 24px;
   text-align: center;
-   transition: all 0.3s ease;
-   max-width: 202px;
+  transition: all 0.3s ease;
+  max-width: 202px;
 }
 .become__partner:hover {
   box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
@@ -90,8 +90,7 @@
   align-items: center;
   padding: 40px 48px 40px 48px;
   width: 100%;
-  max-width: 487px;
-  gap: 40px;
+    gap: 40px;
 }
 .log__system__title2 {
   color: rgba(38, 41, 49, 1);
@@ -117,14 +116,13 @@
   border-radius: 30px;
   background: rgba(255, 255, 255, 1);
   color: rgba(169, 171, 182, 1);
-
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  max-width: 389px;
+
   width: 100%;
   margin-bottom: 24px;
   transition: all 0.3s ease;
@@ -146,15 +144,14 @@
   border-radius: 30px;
   background: rgba(255, 255, 255, 1);
   color: rgba(169, 171, 182, 1);
-
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
-  max-width: 389px;
   width: 100%;
+
   transition: all 0.3s ease;
 }
 .password:hover {
@@ -170,14 +167,14 @@
 .pas__form {
   display: flex;
   position: relative;
-  max-width: 389px;
   width: 100%;
 }
 .img2 {
   display: flex;
   position: absolute;
   right: 20px;
-  top: 20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
   width: 16px;
   height: 16px;
   background-color: rgba(255, 255, 255, 1);
@@ -252,6 +249,9 @@
 }
 
 @media (max-width: 992px) {
+  .log__system {
+    padding-top: 57px;
+  }
   .form1 {
     display: flex;
     flex-wrap: wrap;
@@ -293,6 +293,7 @@
     flex-direction: row;
     justify-content: center;
     font-size: 14px;
+    max-width: none;
   }
   .log__system__form {
     display: flex;
@@ -300,6 +301,9 @@
     flex: 1 1 296px;
     gap: 12px;
     padding: 18px 12px;
+  }
+  .log__system__title2 {
+    font-size: 16px;
   }
   .log {
     padding: 12px 20px;
