@@ -7,6 +7,7 @@ header {
   padding-top: 24px;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .menu__header {
@@ -74,13 +75,40 @@ header {
   .val__exit {
     display: none;
   }
-  .menu__burger {
-    display: flex;
-  }
   .header__wrapper {
+    padding-top: 12px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    gap: 167px;
+  }
+  .menu__burger {
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background: none;
+    z-index: 1;
+  }
+  .span__burger,
+  .span__burger::before,
+  .span__burger::after {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    left: 0;
+    background: black;
+    transition: all 0.3s ease;
+  }
+  .span__burger::after,
+  ::before {
+    content: "";
+  }
+  .span__burger::before {
+    transform: translateY(-7px);
+  }
+  .span__burger::after {
+    transform: translateY(7px);
   }
 }
 .log__system {
@@ -142,19 +170,19 @@ header {
 }
 
 .become__partner {
-  color: rgb(255, 255, 255);
+  display: flex;
+  border-radius: 72px;
+  background: #0176ff;
+  padding: 16px 32px;
+  color: #fff;
   font-family: Inter;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0%;
-  text-align: left;
-  display: flex;
-  padding: 20px 32px 20px 32px;
-  border-radius: 72px;
-  background: rgb(1, 118, 255);
-  max-width: 202px;
+  text-align: center;
   transition: all 0.3s ease;
+  max-width: 202px;
 }
 
 .become__partner:hover {
@@ -167,6 +195,7 @@ header {
   flex-direction: column;
   gap: 56px;
   max-width: 576px;
+  flex: 0 1 576px;
 }
 
 .form1 {
@@ -365,6 +394,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    justify-content: center;
   }
   .title__log__system {
     font-family: RF Dewi Extended;
@@ -376,6 +406,78 @@ header {
   }
   .img1 {
     display: none;
+  }
+  .wrapper__log__system {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 64px;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+  .log__system__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1 1 200px;
+  }
+  .par1 {
+    font-size: 14px;
+  }
+  .become__partner {
+    width: 100%;
+    padding: 12px 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .log__system__form {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 296px;
+    gap: 12px;
+    padding: 18px 12px;
+  }
+  .log {
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .password {
+    padding: 12px 20px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .sec2 {
+    width: 100%;
+  }
+  .sec3 {
+    width: 100%;
+  }
+  .enter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 12px 115px;
+    font-size: 14px;
+  }
+  .recover {
+    font-size: 14px;
+  }
+  .par2 {
+    font-size: 14px;
+  }
+  .reg {
+    font-size: 14px;
   }
 }
 .about__project__wrapper {
@@ -911,6 +1013,8 @@ header {
   background-color: rgb(255, 255, 255);
   padding: 24px;
   border-radius: 16px;
+  display: flex;
+  gap: 24px;
 }
 
 .question__text__wrapper {
@@ -1181,4 +1285,12 @@ header {
   max-width: 1224px;
   margin: 0 auto;
   padding: 0 12px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 792px;
+    margin: 0 auto;
+    padding: 0 12px;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -7,6 +7,7 @@ header {
   padding-top: 24px;
   align-items: center;
   justify-content: space-between;
+  gap: 10px;
 }
 .menu__header {
   display: flex;
@@ -66,10 +67,42 @@ header {
 .val__exit{
   display: none;
 }
-.menu__burger{display: flex;}
+
 .header__wrapper{
-  display: flex;
-  justify-content: space-between;
-  gap: 167px;
+      padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
 }
+.menu__burger {
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background: none;
+        z-index: 1;
+  }
+  .span__burger,
+  .span__burger::before,
+  .span__burger::after {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    left: 0;
+    background: black;
+
+    transition: all 0.3s ease;
+  }
+  .span__burger::after,
+  ::before {
+    content: "";
+  }
+  .span__burger::before {
+    transform: translateY(-7px);
+  }
+  .span__burger::after {
+    transform: translateY(7px);
+  }
 }
