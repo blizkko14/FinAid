@@ -486,10 +486,11 @@ header {
 }
 .about__project__wrapper {
   display: flex;
-  gap: 15px;
+  gap: 40px;
   padding-top: 95px;
   padding-bottom: 167px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .about__project {
@@ -506,7 +507,6 @@ header {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
-  padding: 15px 0 0 0;
   margin-bottom: 32px;
 }
 
@@ -542,6 +542,32 @@ header {
   color: rgb(97, 99, 109);
 }
 
+@media (max-width: 992px) {
+  .about__project {
+    background-image: none;
+  }
+  .about__project__wrapper {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img3 {
+    display: flex;
+    flex: 1 1 249px;
+  }
+  .about__project__title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .text__list {
+    font-size: 14px;
+    gap: 8px;
+  }
+  .about__project__text {
+    max-width: none;
+    flex: 1 1 297px;
+  }
+}
 .how__it__works {
   background: rgb(244, 248, 250);
 }
@@ -602,7 +628,7 @@ header {
 .way1 {
   position: absolute;
   z-index: 2;
-  top: 240px;
+  top: 279px;
   left: 230px;
 }
 
@@ -617,7 +643,7 @@ header {
 .way2 {
   position: absolute;
   z-index: 2;
-  top: 237px;
+  top: 266px;
   right: 467px;
 }
 
@@ -632,8 +658,8 @@ header {
 .way3 {
   position: absolute;
   z-index: 2;
-  top: 245px;
-  right: 226px;
+  top: 284px;
+  right: 196px;
 }
 
 .group4 {
