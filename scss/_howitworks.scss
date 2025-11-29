@@ -3,7 +3,6 @@
 }
 .how__it__works__wrapper {
   padding-top: 136px;
-  
 }
 .how__it__works__title {
   font-family: RF Dewi Extended;
@@ -17,12 +16,15 @@
 }
 .content {
   display: flex;
-  max-width: 1199.43px;
-  max-height: 576px;
   margin-bottom: 32px;
   position: relative;
   padding-top: 44px;
+  min-width: 1200px;
 }
+.content__wrapper {
+  overflow-x: auto;
+}
+
 .content__title {
   color: rgba(38, 41, 49, 1);
   font-family: RF Dewi Extended;
@@ -67,8 +69,8 @@
 .way2 {
   position: absolute;
   z-index: 2;
-  top: 266px;
-  right: 467px;
+  top: 277px;
+  right: 480px;
 }
 .group3 {
   display: flex;
@@ -80,8 +82,8 @@
 .way3 {
   position: absolute;
   z-index: 2;
-  top: 284px;
-  right: 196px;
+  top: 285px;
+  right: 217px;
 }
 .group4 {
   display: flex;
@@ -98,7 +100,6 @@
 .pad2 {
 }
 .pad3 {
-  
   margin-right: 52px;
 }
 .pad4 {
@@ -124,15 +125,101 @@
   background: rgba(1, 118, 255, 1);
   max-width: 202px;
   transition: all 0.3s ease;
- 
 }
-.butt__partner:hover{
-box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
+.butt__partner:hover {
+  box-shadow: 0px 4px 20px 0px rgba(16, 109, 217, 0.5);
   background: rgba(20, 113, 222, 1);
-
 }
 
-.btt1{
+.btt1 {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 992px) {
+  .content {
+    display: flex;
+    min-width: initial;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 40px;
+  }
+  .how__it__works__wrapper {
+    padding-top: 64px;
+    padding-bottom: 0px;
+  }
+  .how__it__works__title {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .content__wrapper {
+    overflow: hidden;
+  }
+  .content__title {
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .content__text {
+    display: flex;
+    flex-direction: column;
+  }
+  .par4 {
+    font-size: 14px;
+  }
+  .way1 {
+    display: none;
+  }
+  .way2 {
+    display: none;
+  }
+  .way3 {
+    display: none;
+  }
+  .group1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .group2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .group3 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .group4 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .pad1 {
+    padding: 0;
+  }
+  .pad3 {
+    margin: 0;
+  }
+  .pad4 {
+    padding: 0;
+  }
+  .im {
+    width: 104px;
+  }
+  .par4 br {
+    display: none;
+  }
 }

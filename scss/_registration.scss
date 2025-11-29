@@ -9,9 +9,6 @@
 }
 .registration__wrapper {
   padding: 48px 0;
- 
-  position: relative;
-  z-index: 2;
 }
 
 .registration__title {
@@ -42,9 +39,7 @@
   gap: 24px;
 }
 .registration__butt {
-  width: 230px;
-  height: 56px;
-  display: flex;
+    display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -62,10 +57,8 @@
   transition: all 0.3s ease;
 }
 .registration__butt:hover {
- 
-box-shadow: 0px 8px 16px 0px rgba(50, 73, 85, 0.3);
-background: rgba(255, 255, 255, 1);
-
+  box-shadow: 0px 8px 16px 0px rgba(50, 73, 85, 0.3);
+  background: rgba(255, 255, 255, 1);
 }
 .enter__akk {
   color: rgba(255, 255, 255, 1);
@@ -78,9 +71,45 @@ background: rgba(255, 255, 255, 1);
   text-align: center;
   align-self: center;
 }
-.registration__text{
-     display: flex;
+.registration__text {
+  display: flex;
   flex-direction: column;
   gap: 40px;
-  
+}
+@media (max-width: 992px) {
+  .registration {
+    background-image: none;
+  }
+  .registration__wrapper {
+    padding-top: 24px;
+    padding-bottom: 20px;
+  }
+  .registration__title {
+    font-size: 18px;
+  }
+  .par10 {
+    font-size: 14px;
+    & br {
+      display: none;
+    }
+  }
+  .reg__butt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 300px;
+    align-self: center;
+    width: 100%;
+  }
+  .registration__text {
+    display: flex;
+    gap: 24px;
+  }
+  .registration__butt {
+    padding: 12px 32px 12px 32px;
+   width: 100%;
+  }
+  .enter__akk {
+    font-size: 14px;
+  }
 }

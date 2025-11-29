@@ -215,6 +215,7 @@ header {
   padding: 40px 48px 40px 48px;
   width: 100%;
   gap: 40px;
+  flex: 0 1 485px;
 }
 
 .log__system__title2 {
@@ -589,11 +590,14 @@ header {
 
 .content {
   display: flex;
-  max-width: 1199.43px;
-  max-height: 576px;
   margin-bottom: 32px;
   position: relative;
   padding-top: 44px;
+  min-width: 1200px;
+}
+
+.content__wrapper {
+  overflow-x: auto;
 }
 
 .content__title {
@@ -643,8 +647,8 @@ header {
 .way2 {
   position: absolute;
   z-index: 2;
-  top: 266px;
-  right: 467px;
+  top: 277px;
+  right: 480px;
 }
 
 .group3 {
@@ -658,8 +662,8 @@ header {
 .way3 {
   position: absolute;
   z-index: 2;
-  top: 284px;
-  right: 196px;
+  top: 285px;
+  right: 217px;
 }
 
 .group4 {
@@ -715,17 +719,108 @@ header {
   justify-content: center;
 }
 
+@media (max-width: 992px) {
+  .content {
+    display: flex;
+    min-width: initial;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 40px;
+  }
+  .how__it__works__wrapper {
+    padding-top: 64px;
+    padding-bottom: 0px;
+  }
+  .how__it__works__title {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .content__wrapper {
+    overflow: hidden;
+  }
+  .content__title {
+    font-size: 14px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .content__text {
+    display: flex;
+    flex-direction: column;
+  }
+  .par4 {
+    font-size: 14px;
+  }
+  .way1 {
+    display: none;
+  }
+  .way2 {
+    display: none;
+  }
+  .way3 {
+    display: none;
+  }
+  .group1 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .group2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .group3 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .group4 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 16px;
+    flex: 1 1 296px;
+    align-items: center;
+  }
+  .pad1 {
+    padding: 0;
+  }
+  .pad3 {
+    margin: 0;
+  }
+  .pad4 {
+    padding: 0;
+  }
+  .im {
+    width: 104px;
+  }
+  .par4 br {
+    display: none;
+  }
+}
 .about__bitcoin {
   background: rgb(244, 248, 250);
   padding: 144px 0;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .video__bitcoin {
   position: relative;
+  max-width: 888px;
+  margin: 0 auto 56px;
 }
 
 .about__bitcoin__title {
@@ -736,6 +831,11 @@ header {
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 40px;
+}
+
+.vid {
+  height: 100%;
+  width: 100%;
 }
 
 .par5 {
@@ -779,6 +879,32 @@ header {
   fill: white;
 }
 
+.polygon {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 992px) {
+  .about__bitcoin__title {
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+  .par5 {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 32px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .video__bitcoin {
+    margin: 0;
+  }
+  .about__bitcoin {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+}
 .registration {
   background: rgb(1, 118, 255);
   overflow: hidden;
@@ -790,8 +916,6 @@ header {
 
 .registration__wrapper {
   padding: 48px 0;
-  position: relative;
-  z-index: 2;
 }
 
 .registration__title {
@@ -825,8 +949,6 @@ header {
 }
 
 .registration__butt {
-  width: 230px;
-  height: 56px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -867,6 +989,43 @@ header {
   gap: 40px;
 }
 
+@media (max-width: 992px) {
+  .registration {
+    background-image: none;
+  }
+  .registration__wrapper {
+    padding-top: 24px;
+    padding-bottom: 20px;
+  }
+  .registration__title {
+    font-size: 18px;
+  }
+  .par10 {
+    font-size: 14px;
+  }
+  .par10 br {
+    display: none;
+  }
+  .reg__butt {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 300px;
+    align-self: center;
+    width: 100%;
+  }
+  .registration__text {
+    display: flex;
+    gap: 24px;
+  }
+  .registration__butt {
+    padding: 12px 32px 12px 32px;
+    width: 100%;
+  }
+  .enter__akk {
+    font-size: 14px;
+  }
+}
 .partner__support {
   background: rgb(244, 248, 250);
 }
