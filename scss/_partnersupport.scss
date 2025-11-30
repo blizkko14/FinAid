@@ -71,6 +71,20 @@
   margin-bottom: 73px;
   padding-left: 18px;
 }
+
 .val6 {
   max-width: 249px;
+}
+@media(max-width:992px){
+  .partner__support__wrapper{
+    padding-top: 64px;
+    padding-bottom: 33px;
+  }
+  .partner__support__title{
+    font-size: 18px;
+
+  }
+  .column1{
+    list-style-type: circle;
+  }
 }
