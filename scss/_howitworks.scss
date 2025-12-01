@@ -150,6 +150,7 @@
   .how__it__works__title {
     font-size: 18px;
     margin-bottom: 40px;
+    line-height: 22px;
   }
   .content__wrapper {
     overflow: hidden;
@@ -158,7 +159,10 @@
     font-size: 14px;
     padding: 0;
     margin-bottom: 10px;
+
+  
   }
+
   .content__text {
     display: flex;
     flex-direction: column;
@@ -182,6 +186,7 @@
     gap: 16px;
     flex: 1 1 296px;
     align-items: center;
+    
   }
   .group2 {
     display: flex;
@@ -206,6 +211,7 @@
     gap: 16px;
     flex: 1 1 296px;
     align-items: center;
+    margin-bottom: 0;
   }
   .pad1 {
     padding: 0;
@@ -220,6 +226,9 @@
     width: 104px;
   }
   .par4 br {
+    display: none;
+  }
+  .way__mob{
     display: none;
   }
 }
