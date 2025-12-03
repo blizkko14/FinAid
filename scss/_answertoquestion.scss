@@ -255,7 +255,7 @@
   }
   .questions__summaary {
     font-size: 14px;
-    padding: 12px 24px;
+    padding: 12px;
     gap: 10px;
   }
   .par13 {
@@ -267,6 +267,9 @@
   .answer__to__questions__wrapper {
     padding-top: 64px;
     padding-bottom: 128px;
+  }
+  .question__text__wrapper {
+    padding: 0 12px 12px;
   }
   .question__title {
     font-size: 16px;
@@ -317,6 +320,7 @@
   }
   .question__form {
     width: 100%;
+    padding:18px 12px;
   }
   .part3 {
     width: 100%;
@@ -327,5 +331,6 @@
   }
   .send {
     width: 100%;
+    padding: 12px 40px;
   }
 }

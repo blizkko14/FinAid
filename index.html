@@ -36,6 +36,11 @@
                 <a href="" class="val__menu__list"> FAQ</a>
               </li>
             </ul>
+            <button class="authorization">Авторизация</button>
+            <div class="contacts">
+              <a href="#" class="a__number">+ 375(44) 121 12 12</a>
+              <a href="#" class="a__address">testMailfd@gmail.com</a>
+            </div>
           </nav>
           <div class="val__exit">
             <a href=""
@@ -80,12 +85,21 @@
                     </li>
                     <li class="pas__form">
                       <input
-                        type="text"
+                        type="password"
                         class="password"
                         placeholder="Пароль"
                       />
                       <button class="img2">
-                        <img src="./img/icon.svg" alt="" class="eye" />
+                        <img
+                          src="./img/icon.svg"
+                          alt=""
+                          class="eye eye__active"
+                        />
+                        <img
+                          src="./img/LastAddon.svg"
+                          alt=""
+                          class="close__eye"
+                        />
                       </button>
                     </li>
                   </ul>
@@ -608,5 +622,7 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu__burger.js"></script>
+    <script src="./js/btn_eye.js"></script>
   </body>
 </html>
